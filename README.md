@@ -1,1 +1,110 @@
 # ajbLessonbed
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1. Introduction to Number Systems</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .lesson-content th, .lesson-content td {
+            padding: 0.75rem;
+            text-align: left;
+            border: 1px solid #374151;
+        }
+        .lesson-content th {
+            background-color: #312e81; /* Indigo header */
+            color: #e0f2f1;
+            font-weight: 600;
+        }
+        .lesson-content tr:nth-child(even) {
+            background-color: #1f2937;
+        }
+        .lesson-content h1 {
+            border-bottom: 3px solid #06b6d4; /* Teal border */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            color: #2dd4bf;
+        }
+        .lesson-content h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #93c5fd;
+            border-bottom: 1px dashed #4f46e5;
+            padding-bottom: 0.3rem;
+            margin-top: 1.5rem;
+        }
+        .lesson-content strong { color: #a7f3d0; }
+        .lesson-content table { border-collapse: collapse; width: 100%; border-radius: 0.5rem; overflow: hidden; }
+        .lesson-content ul { list-style-type: disc; padding-left: 1.5rem; }
+        .math-symbol { font-family: 'Inter', monospace; font-size: 1.1em; color: #fcd34d; }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-gray-200 font-sans p-6 md:p-10">
+    <div class="max-w-4xl mx-auto bg-gray-800 p-6 md:p-8 rounded-xl shadow-2xl lesson-content">
+
+        <h1 class="text-3xl md:text-4xl font-extrabold">
+            1. Introduction to Number Systems
+        </h1>
+        <p class="text-indigo-300 font-semibold mb-6">Sub-Topic: Real Numbers: The Foundation</p>
+        [Image of the number system classification diagram showing Natural, Whole, Integers, Rational, and Irrational numbers]
+
+        <div class="bg-gray-700 p-4 rounded-lg mb-6">
+            <h2 class="text-xl border-none p-0 m-0 text-teal-300">👤 Teacher's Name: ABHISHEK JHA BRAHMAN</h2>
+            <table class="mt-2">
+                <tr><th>Class</th><th>Subject</th><th>Duration</th></tr>
+                <tr><td>**10**</td><td>**Mathematics**</td><td>40 Minutes</td></tr>
+            </table>
+        </div>
+
+        <h2>🎯 General Aims</h2>
+        <p>To enable students to appreciate the classification of numbers and understand the structure and scope of the **Real Number System** (<span class="math-symbol">$\mathbb{R}$</span>).</p>
+
+        <h2>💡 Specific Objectives</h2>
+        <ul>
+            <li>Students will be able to define <span class="math-symbol">$\mathbb{N}$</span>, <span class="math-symbol">$\mathbb{W}$</span>, <span class="math-symbol">$\mathbb{Z}$</span>, <span class="math-symbol">$\mathbb{Q}$</span>, and Irrational Numbers.</li>
+            <li>Students will be able to identify the relationships and subsets within the Real Number System.</li>
+        </ul>
+
+        <h2>📜 Introduction to the Lesson</h2>
+        <table>
+            <tr><th>Teacher's Activity</th><th>Student's Response</th></tr>
+            <tr><td>**Question (Motivation):** 1. Which set of numbers do we use for simple counting?</td><td>**Answer:** <span class="math-symbol">$1, 2, 3, \ldots$</span> (Natural Numbers).</td></tr>
+            <tr><td>**Aim Statement:** "Today, we start the unit on **Real Numbers**. We will systematically classify all numbers we have encountered so far."</td><td>Students listen attentively.</td></tr>
+        </table>
+
+        <h2>📚 Presentation</h2>
+        <table>
+            <thead>
+                <tr><th>Teaching Point</th><th>Teacher's Activity</th><th>Key Summary</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>**1. Natural Numbers (<span class="math-symbol">$\mathbb{N}$</span>)**</td><td>**Explanation:** The set of counting numbers.</td><td><span class="math-symbol">$\mathbb{N}$</span>: Counting numbers starting from **1**.</td></tr>
+                <tr><td>**2. Whole Numbers (<span class="math-symbol">$\mathbb{W}$</span>)**</td><td>**Question:** What number is added to <span class="math-symbol">$\mathbb{N}$</span> to form <span class="math-symbol">$\mathbb{W}$</span>?</td><td><span class="math-symbol">$\mathbb{W}$</span>: <span class="math-symbol">$\mathbb{N} \cup \{0\}$</span> (Starts with **0**).</td></tr>
+                <tr><td>**3. Integers (<span class="math-symbol">$\mathbb{Z}$</span>)**</td><td>**Explanation:** Introduce negative numbers. The set of all positive and negative whole numbers, including zero.</td><td><span class="math-symbol">$\mathbb{Z}$</span>: <span class="math-symbol">$\{\ldots, -1, 0, 1, \ldots\}$</span></td></tr>
+                <tr><td>**4. Rational Numbers (<span class="math-symbol">$\mathbb{Q}$</span>)**</td><td>**Explanation:** Defined by the <span class="math-symbol">$p/q$</span> form, where <span class="math-symbol">$q \ne 0$</span> and <span class="math-symbol">$p, q \in \mathbb{Z}$</span>. Includes all terminating/repeating decimals.</td><td><span class="math-symbol">$\mathbb{Q}$</span>: Numbers expressed as **$p/q$**.</td></tr>
+                <tr><td>**5. Irrational Numbers**</td><td>**Question:** What characterizes the decimal expansion of Irrational numbers?</td><td>**Irrational:** **Non-Terminating**, **Non-Repeating** decimals (<span class="math-symbol">$\sqrt{2}, \pi$</span>).</td></tr>
+                <tr><td>**6. Real Number System (<span class="math-symbol">$\mathbb{R}$</span>)**</td><td>**Explanation:** Define Real Numbers as the union of all Rational and Irrational numbers.</td><td><span class="math-symbol">$\mathbb{R}$</span>: The set of **all** numbers on the **Number Line**.</td></tr>
+            </tbody>
+        </table>
+
+        <h2>📝 Recap and Homework</h2>
+        <table>
+             <thead><tr><th>Title</th><th>Details</th></tr></thead>
+            <tbody>
+                <tr>
+                    <td>**Recap**</td>
+                    <td>**Real Numbers** (<span class="math-symbol">$\mathbb{R}$</span>) is the largest set we study, formed by the union of **Rational** (<span class="math-symbol">$\mathbb{Q}$</span>) and **Irrational** numbers. <span class="math-symbol">$\mathbb{N} \subset \mathbb{W} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$</span>.</td>
+                </tr>
+                <tr>
+                    <td>**Homework**</td>
+                    <td>1. Classify the following: <span class="math-symbol">$2/3$</span>, <span class="math-symbol">$\sqrt{9}$</span>, <span class="math-symbol">$0.1010010001\ldots$</span> as Rational or Irrational. <br> 2. Explain why every Integer is a Rational number.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
